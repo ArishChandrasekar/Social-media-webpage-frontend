@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.login {
+  height: 100vh;
+  background: url("../../../public/assets/poster.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  /* background-color: rgb(152, 201, 244); */
+}
+
+.loginLeft {
+  flex: 6.5;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+.loginRight {
+  flex: 6.5;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+
+.loginLogo {
+  margin-left: 10px;
+  font-size: 50px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(rgb(214, 38, 38), rgb(205, 214, 230));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lato", sans-serif;
+  display: inline;
+}
+.loginLogo:hover {
+  background: -webkit-linear-gradient(rgb(82, 188, 218), rgb(205, 214, 230));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loginDesc {
+  font-size: 24px;
+  background: -webkit-linear-gradient(red, rgb(7, 9, 118));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lato", sans-serif;
+  display: block;
+}
+
+.loginDesc:hover {
+  font-size: 30px;
+  -webkit-text-fill-color: white;
+}
+
+.loginBox {
+  height: 300px;
+  padding: 20px;
+  background-color: gray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.loginInput:focus {
+  outline: none;
+}
+
+.loginButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(190, 78, 78);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginForgot {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.loginRegisterButton {
+  width: 75%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(13, 171, 234);
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
