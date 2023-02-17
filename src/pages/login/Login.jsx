@@ -33,6 +33,7 @@ export default function Login() {
               ""
             )}
             <input
+              type="password"
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Password"
               id="pass"
