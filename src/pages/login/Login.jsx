@@ -1,3 +1,6 @@
+//username:arish
+//password:mcu123
+
 import React from "react";
 import "./login.css";
 import { Navigate } from "react-router-dom";
